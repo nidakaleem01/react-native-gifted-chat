@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body style="text-align: center;">
+	<h1>Dishes</h1>
+	<p id="demo"></p>
+	<script type="text/javascript">
+		var Dishes = ["Chinese Rice", "Baryani", "Pasta", "Macroni", "Noodles", "Spaghetti", "Burger", "Shawarma","IceCream", "French-Fries"];
+		var text = "";
+		var i;
+		for (var i = 0; i < Dishes.length ; i++) {
+			text += Dishes[i] + "<br><br>"
+		}
+		document.getElementById('demo').innerHTML = text;
+	</script>
+</body>
+</html>
